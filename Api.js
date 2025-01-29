@@ -10,7 +10,7 @@ const axios = require("axios");
 
 const usersApi = async () => {
   try {
-    const response = await axios.get("https://reqres.in/api/users/2"); // added dummy users api.
+    const response = await axios.get("https://reqres.in/api/users/2"); // users api.
     console.log("Api response", response.data);
   } catch (error) {
     console.log("Error fetching response data", error.message);
